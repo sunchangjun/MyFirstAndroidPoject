@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIActivity">
+
+    <include layout="@layout/title"/>
+
+    <Button
+        android:id="@+id/button_qinglong"
+        android:text="青龙"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/button_baihu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="白虎"/>
+    <Button
+        android:id="@+id/button_yadianna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雅典娜"/>
+    <Button
+        android:id="@+id/button_xuanwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="玄武"/>
+    <Button
+        android:id="@+id/button_zhuque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="朱雀"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

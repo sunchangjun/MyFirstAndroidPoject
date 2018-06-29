@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="傻瓜赚钱"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -35,7 +35,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".OneActivity" />
-        <activity android:name=".TwoActivity"></activity>
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".UIActivity" />
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>
