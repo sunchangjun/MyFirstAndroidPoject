@@ -37,7 +37,8 @@
         <activity android:name=".OneActivity" />
         <activity android:name=".TwoActivity" />
         <activity android:name=".UIActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".RecyclerView_Activity"></activity>
     </application>
 
 </manifest>

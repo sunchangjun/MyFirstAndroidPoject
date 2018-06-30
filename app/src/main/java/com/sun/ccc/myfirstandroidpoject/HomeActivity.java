@@ -70,6 +70,11 @@ public class HomeActivity extends BaseActivity implements  View.OnClickListener{
             case R.id.button_show_list:
                 Intent intent_to_showListActivity=new Intent(HomeActivity.this,ListViewActivity.class);
                 startActivity(intent_to_showListActivity);
+
+            case R.id.button_show_recyclerView:
+                Intent intent_to_recyclerActivity=new Intent(HomeActivity.this,RecyclerView_Activity.class);
+                startActivity(intent_to_recyclerActivity);
+                break;
         }
     }
 
